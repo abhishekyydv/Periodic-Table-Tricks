@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.subheadings {
+  color: black;
+  text-align: center;
+}
+
+.p {
+  font-size: 1.3em;
+}
+
+.img {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Table Styles */
+table {
+  border-collapse: separate; /* Use separate borders for clarity */
+  border-spacing: 0; /* Remove spacing between cells */
+  font-size: 16px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #ddd; /* Visible border */
+}
+
+th {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: bold;
+}
